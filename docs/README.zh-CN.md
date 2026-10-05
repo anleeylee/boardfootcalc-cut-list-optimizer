@@ -19,7 +19,7 @@
 ## 安装
 
 ```bash
-git clone <your-repo-url> 01-cut-list-purchase-optimizer
+git clone https://github.com/anleeylee/boardfootcalc-cut-list-optimizer 01-cut-list-purchase-optimizer
 cd 01-cut-list-purchase-optimizer
 npm install
 npm run build        # 编译到 dist/

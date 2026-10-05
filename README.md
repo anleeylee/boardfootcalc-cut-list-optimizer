@@ -43,7 +43,7 @@ and [Lumber Waste Factor Guide](https://boardfootcalc.net/lumber-waste-factor-gu
 ## Install
 
 ```bash
-git clone <your-repo-url> bfc-optimize
+git clone https://github.com/anleeylee/boardfootcalc-cut-list-optimizer bfc-optimize
 cd bfc-optimize
 npm install
 npm run build        # compile to dist/
