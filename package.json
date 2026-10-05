@@ -1,0 +1,43 @@
+{
+  "name": "@boardfootcalc/cut-list-purchase-optimizer",
+  "version": "1.0.0",
+  "description": "Turn a woodworking cut list into an optimized, lowest-waste lumber purchase plan. Board matching, existing inventory reuse, cost/waste/board-count optimization, and a printable purchase list.",
+  "type": "commonjs",
+  "main": "dist/features/index.js",
+  "bin": {
+    "bfc-optimize": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "sample-data"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "start": "node dist/cli.js",
+    "demo": "node dist/cli.js demo"
+  },
+  "keywords": [
+    "board-foot",
+    "cut-list",
+    "lumber",
+    "purchase-optimizer",
+    "woodworking",
+    "hardwood",
+    "bill-of-materials"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "xlsx": "^0.18.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.5.4",
+    "vitest": "^2.1.8"
+  }
+}
