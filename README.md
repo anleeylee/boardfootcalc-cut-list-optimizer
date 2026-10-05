@@ -1,4 +1,17 @@
 # bfc-optimize — Cut List → Lumber Purchase Optimizer
+<!-- bfc-badges -->
+<div align="center">
+
+**English** · [简体中文](./docs/README.zh-CN.md)
+
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-%3E%3D18-339933?logo=nodedotjs&logoColor=white)
+![CLI](https://img.shields.io/badge/CLI-Commander-6F42C1?logo=gnubash&logoColor=white)
+![Tests](https://img.shields.io/badge/tests-20%20passed-2ea44f)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+
+</div>
+
 
 Turn a woodworking cut list into an optimized, **lowest-waste lumber purchase
 plan**. The tool matches every required part against your existing inventory
